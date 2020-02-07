@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  font: normal 1em Verdana; 
+  width: 80%; 
+  margin: 1em auto;
+	background-color: lightgray;
+	text-align: center;
+}
+     
+h1 {
+  font: normal 3em Georgia; 
+  color: rgb(23, 109, 157); 
+  margin: 1em 0 1em;
+}
