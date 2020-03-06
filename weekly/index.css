@@ -54,21 +54,22 @@ table {
 #wrapper {
 	float: left;
 	margin: 20px;
-	width: 950px;
+	width: 100%;
 }
 
 body {
-	width: 950px;
+	width: 98%;
+	background-color: antiquewhite;
 }
 
 .weekly {
-	width: 400px;
-	margin: 0 10px;
-	float:left;
+	width: 30%;
+	margin: 0 30px;
+	float: left;
 }
 
 .project {
-	width: 550px;
+	width: 70%;
 	margin: 0 10px;
 	float: left;
 }
@@ -78,21 +79,23 @@ h1 {color: midnightblue;
 	font-weight: bold;
 }
 
-h2 {color: slategrey;
+h2 {
 	font-size: 17px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
-h3 {color: slategrey;
+h3 {
 	font-size: 17px;
 	font-weight: bold;
-	margin-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 h4 {font-size: 20px;
 	font-weight: bold;
 	margin: 3px;
+	padding-top: 15px;
+	padding-bottom:5px;
 }
 
 dt {color: midnightblue;
