@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#wrapper {
+	width: 1300px;
+	background-color: white;
+	overflow: auto;
+	margin: 0 auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+header {
+	width: 1300px;
+}
+
+main {
+	width: 1300px;
+	margin-bottom: 5px;
+}
+
+nav {
+	width: 400px;
+	margin-top: 15px;
+	float: right;
+	color: white;
+	font-weight: bold;
+}
+
+ul {
+	margin-top: 10px;
+}
+
+li {
+	display: inline;
+	margin-left: 45px;
+	font-size: 25px;
+}
+
+.hero {
+	position: relative;
+	width: 1300;
+	height: auto;
+	z-index: 1;
+	padding-bottom: 10px;
+}
+
+.top-right {
+	position: absolute;
+	top: 47px;
+	right: 250px;
+	z-index: 2;
+	width: 407px;
+	height: 80px;
+}
+
+.burgers {
+	float: left;
+	width: 433.33px;
+	text-align: center;
+	background-color: #224358;
+	padding: 20px 0 20px 0;
+	font-size: 30px;
+}
+
+.dogs {
+	float: left;
+	width: 433.33px;
+	text-align: center;
+	background-color: #7eb42b;
+	padding: 20px 0 20px 0;
+	font-size: 30px;
+}
+
+.sandwiches {
+	float: left;
+	width: 433.33px;
+	text-align: center;
+	background-color: #224358;
+	padding: 20px 0 20px 0;
+	font-size: 30px;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+	color: #224358;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h3 {
+	color: #7eb42b;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	padding-top: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h4 {
+	color: #7eb42b;
+	font-size: 60px;
+	font-weight: bold;
+	padding-left: 60px;
+	padding-top: 20px;
+}
+
+h5 {
+	color: #7eb42b;
+	font-size: 37px;
+	font-weight: bold;
+	padding-left: 60px;
+	padding-top: 15px;
+}
+
+p {
+	color: white;
+	padding: 5px;
+	font-size: 27px;
+}
+
+#special {
+	width: 1300px;
+	height: auto;
+	clear: left;
+}
+
+p.special {
+	width: 750px;
+	font-style: italic;
+	color: black;
+	padding: 10px 0 10px 0;
+	overflow: auto;
+	text-align: center;
+	margin-top: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+img.special {
+	width: 550px;
+	height: auto;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+#locate {
+	width: 1300px;
+	height: auto;
+	clear: left;
+	border-top: #224358 6px solid;
+}
+
+p.locate {
+	width: 550;
+	margin-left: 40px;
+	font-weight: 20px;
+	color: black;
+	text-align: left;
+	padding-left: 70px;
+}
+
+img.locate {
+	width: 750px;
+	height: auto;
+	float: right;
+	margin: 10px 0 10px 0;
+}
+
+footer {
+	width: 1300px;
+}
+
+.small {
+	width: 1000px;
+	height: 35px;
+	text-align: left;
+	float: left;
+	padding: 10px;
+	color: #7eb42b;
+	background-color: #224358;
+}
+
+#fa {
+	width: 280px;
+	height: 55px;
+	float: right;
+	background: #224358;
+	font-size: 50px;
+}
+
+.fa-facebook {
+    float: left;
+	background: #224358;
+    color: #7eb42b;
+	padding: 5px;
+	text-decoration: none;
+	height: 45px;	
+	padding-right: 10px;
+}
+
+.fa-twitter {
+    float: left;
+	background: #224358;
+    color: #7eb42b;
+	padding: 5px;
+	text-decoration: none;
+	height: 45px;
+	padding-right: 10px;
+}
+
+.fa-instagram {
+    float: left;
+	background: #224358;
+    color: #7eb42b;
+	padding: 5px;
+	text-decoration: none;
+	height: 45px;
+	padding-right: 10px;	
+}
