@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider Demo</title>
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/flower.jpg" data-thumb="images/thum_flower.jpg" alt="White Flower" title="White flower" data-transition="slideInLeft" />
+                <img src="images/house.jpg" data-thumb="images/thum_house.jpg" alt="house on beach" title="Abandoned house on beach" />
+                <img src="images/lassen.jpg" data-thumb="images/thum_lassen.jpg" alt="Mountain and lake" title="Lassen Volcanic NP" data-transition="slideInRight" />
+                <img src="images/skyline.jpg" data-thumb="images/thum_skyline.jpg" alt="Skyline" title="Shenandoah NP" />
+				<img src="images/tree.jpg" data-thumb="images/thum_tree.jpg" alt="Dead tree" title="Dead tree on a beach" data-transition="slideInLeft" />
+				<img src="images/yose.jpg" data-thumb="images/thum_yose.jpg" alt="mountain landscape" title="Yosemite NP" />
+            </div>			
+        </div>
+
+    </div>
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> 
+		<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
